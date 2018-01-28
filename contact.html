@@ -13,6 +13,7 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald%7CLato:400italic,400,700">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -67,34 +68,9 @@
                         </form> -->
                       </div>
                       <!-- RD Navbar Nav-->
-                              <ul class="rd-navbar-nav">
-                        <li  ><a  href="index.html"><span>Home</span></a>
-                        </li>
-                        <li ><a href="profil.html"><span>Profil</span></a>
-                        </li>
-                        <li><a><span>Services</span></a>
-							<ul class="rd-navbar-dropdown">
-							
-							     <li><a href="Genital-Surgery.html"><span class="text-middle">GENITAL SURGERY</span> </a> </li>
-							     <li><a href="face.html"><span class="text-middle">FACE</span></a>  </li>
-							     <li><a href="breast.html"><span class="text-middle">BREAST</span></a>  </li>
-							     <li><a href="body.html"><span class="text-middle">BODY</span></a>  </li>
-								 <li><a href="no-surgical.html"><span class="text-middle">NON-SURGICAL</span></a>  </li>
-								 <li><a href="regenerative-medecine.html"><span class="text-middle">REGENERATIVE MEDECINE</span></a>  </li>
-						    	 <li><a href="medspa.html"><span class="text-middle">MED SPA</span></a>  </li>
-								
-								  
-							</ul>
-                        </li>
-                        <li><a href="gallery.html"><span>Gallery</span></a>
-                        </li>
-                        <li><a href="training.html"><span>Training</span></a>
-                        </li>
-                        <li class="active"><a href="contact.html"><span>Contact</span></a>
-                        </li>
-                      </ul>
-                    </div>
+                      <ul id="menu" active="Contact" class="rd-navbar-nav"></ul>
                   </div>
+                </div>
                   <!--RD Navbar Search
                   <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-navbar-menu-wrap,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
                     <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
@@ -218,7 +194,7 @@
                           <div class="offset-top-20">
                             <div class="unit unit-horizontal unit-spacing-xxs p">
                               <div class="unit-left">
-                               
+
                                 <div class="icon icon-xs icon-circle icon-gray-lighter mdi mdi-phone text-primary"></div>
                               </div>
                               <div class="unit-body"><a href="tel:+212-522-398-689" class="text-gray-darker">+212-522-398-689</a> <br/> <a href="tel:+212-661-050-523" class="reveal-block reveal-md-inline-block text-gray-darker">+212-661-050-523</a></div>
@@ -246,13 +222,13 @@
             <div class="offset-top-110">
               <!-- RD Google Map-->
               <div class="rd-google-map">
-                  <div id="rd-google-map" data-zoom="15" data-y="33.5927604" data-x="-7.6374916" data-styles='[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]' class="rd-google-map__model"></div>
-                  <ul class="rd-google-map__locations">
-                    <li data-y="33.5927604" data-x="-7.6374916">
-                      <p>5 boulevard Abdellatif Benqaddour, Racine Casablanca, Morocco</p>
-                    </li>
-                  </ul>
-                </div>
+                <div id="rd-google-map" data-zoom="15" data-y="33.5927604" data-x="-7.6374916" data-styles='[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]' class="rd-google-map__model"></div>
+                <ul class="rd-google-map__locations">
+                  <li data-y="33.5927604" data-x="-7.6374916">
+                    <p>5 boulevard Abdellatif Benqaddour, Racine Casablanca, Morocco</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
         </main>
@@ -339,6 +315,7 @@
         </div>
       </div>
       <!-- Java script-->
+      <script src="js/menu.js"></script>
       <script src="js/core.min.js"></script>
       <script src="js/script.js"></script>
       <script type="text/javascript">

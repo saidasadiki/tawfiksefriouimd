@@ -9,6 +9,7 @@ $("footer").load("/footer.html");
 $("footer").addClass("section-relative section-34 section-md-66 page-footer bg-white context-light");*/
 
 
+
 var userAgent = navigator.userAgent.toLowerCase(),
     initialDate = new Date(),
 
@@ -80,6 +81,7 @@ var userAgent = navigator.userAgent.toLowerCase(),
       galleryRDTabs: $(".gallery-tabs"),
       fullCalendar: $("#calendar")
     };
+
 
 /**
  * Initialize All Scripts
