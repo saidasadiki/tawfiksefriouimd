@@ -1775,7 +1775,7 @@ blockquote.quote .text-primary,
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #e7323f;
+  color: #983b1d;
 }
 
 blockquote.quote .text-success,
@@ -1828,7 +1828,7 @@ a.text-danger:focus {
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #e7323f;
+  background-color: #983b1d;
 }
 
 .bg-success {
@@ -3121,8 +3121,8 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: green;
+  border-color: red;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -10785,7 +10785,7 @@ mark, .mark {
 
 .list-vertical-right-line li:hover {
   color: #fff;
-  background: #e7323f;
+  background: #983b1d;
 }
 
 @media (min-width: 1200px) {
@@ -11158,7 +11158,7 @@ mark, .mark {
 
 .page a.text-primary:hover,
 .page a.text-primary:focus {
-  color: #e7323f;
+  color: #983b1d;
 }
 
 .page blockquote.quote .text-gray-darker,
@@ -11575,8 +11575,8 @@ fieldset[disabled] .btn-default {
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #e41c2a;
-  border-color: #e41c2a;
+  background-color: #983b1d;
+  border-color: #983b1d;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -11590,8 +11590,8 @@ fieldset[disabled] .btn-default {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #e41c2a;
-  border-color: #e41c2a;
+  background-color: #983b1d;
+  border-color: #983b1d;
 }
 
 .btn-primary.disabled, .btn-primary[disabled],
@@ -12760,7 +12760,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-nuka-effect.btn-primary:hover {
-  color: #e7323f;
+  color: #983b1d;
 }
 
 .btn.btn-nuka-effect.btn-primary:hover:after {
@@ -24119,7 +24119,7 @@ a.thumbnail:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(236, 96, 106, 0.7);
+  background: rgba(152, 59, 29, 0.7);
   z-index: 2;
   transition: .22s ease-in;
 }
@@ -24539,8 +24539,8 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .btn-java:hover {
-  background: #e7323f;
-  border-color: #e7323f;
+  background: rgba(152, 59, 29, 0.7);
+  border-color: rgba(152, 59, 29, 0.7);
 }
 
 .thumbnail-josip-title, .thumbnail-josip p {

@@ -694,25 +694,25 @@ $document.ready(function () {
           time = {
             "Days": {
               "text": "Days",
-              "color": "#ec606a",
+              "color": "#983b1d",
               "bg_width":"0.5",
               "show": true
             },
             "Hours": {
               "text": "Hours",
-              "color": "#ec606a",
+              "color": "#983b1d",
               "bg_width":"0.5",
               "show": true
             },
             "Minutes": {
               "text": "Minutes",
-              "color": "#ec606a",
+              "color": "#983b1d",
               "bg_width":"0.5",
               "show": true
             },
             "Seconds": {
               "text": "Seconds",
-              "color": "#ec606a",
+              "color": "#983b1d",
               "bg_width":"0.5",
               "show": true
             }
