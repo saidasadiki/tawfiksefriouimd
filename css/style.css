@@ -33525,7 +33525,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .page-loader-variant-1 .spinner {
-  width: 56px;
+  width: 136px;
   height: 56px;
   background: url("../images/633328.png") no-repeat transparent;
   background-position: -2240px 0;
@@ -38168,7 +38168,7 @@ fieldset[disabled] .bg-primary .btn-java {
   height: 100%;
 }
 
-.swiper-container-no-flexbox .swiper-slide {
+.swiper-container-no-flexbox {
   float: left;
 }
 
@@ -38547,7 +38547,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .swiper-slide {
   height: 100%;
-  background-position: center !important;
+  background-position: 70% !important;
   background: #fff;
 }
 
